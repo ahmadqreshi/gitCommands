@@ -12,7 +12,7 @@ struct CustomUI: View {
     var imgName : String
     var body: some View {
         ZStack {
-            RoundedRectangle(cornerRadius: 20).frame( height: 40, alignment: .center).padding().foregroundColor(.white)
+//            RoundedRectangle(cornerRadius: 20).frame( height: 40, alignment: .center).padding().foregroundColor(.white)
             HStack {
                 Image(systemName: imgName).foregroundColor(.red)
                 Text(text).font(.body)
