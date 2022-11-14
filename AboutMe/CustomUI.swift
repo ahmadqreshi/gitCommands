@@ -13,10 +13,10 @@ struct CustomUI: View {
     var body: some View {
         ZStack {
 //            RoundedRectangle(cornerRadius: 20).frame( height: 40, alignment: .center).padding().foregroundColor(.white)
-            HStack {
-                Image(systemName: imgName).foregroundColor(.red)
-                Text(text).font(.body)
-            }
+//            HStack {
+//                Image(systemName: imgName).foregroundColor(.red)
+//                Text(text).font(.body)
+//            }
         }
     }
 }
